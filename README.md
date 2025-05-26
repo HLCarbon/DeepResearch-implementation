@@ -72,6 +72,7 @@ The process is iterative: Deep-research directs Firecrawl to gather data, analyz
         OPENROUTER_KEY="YOUR-KEY"
         OPENROUTER_ENDPOINT="https://openrouter.ai/api/v1"
         OPENROUTER_MODEL="google/gemma-3-27b-it:free"
+        (You can use any other model. This was the one used for this example)
         ```
 
 ## Usage
@@ -83,12 +84,12 @@ The process is iterative: Deep-research directs Firecrawl to gather data, analyz
     npm start
     ```
 
-    For example, you could use the following query:
-    "I would like to research about mcp. Where did it start, what it entails, why is it used, what are its benefits, disadvantages, when to use it and when to not use it." Which was the query used to generate the report currently present in the output file.
-
 4.  Follow the prompts to enter your research query and parameters.
 
 The final report will be saved as `output.md` in the `deep-research` directory.
+For example, you could use the following query:
+"I would like to research about mcp. Where did it start, what it entails, why is it used, what are its benefits, disadvantages, when to use it and when to not use it."
+This was the query used to generate the report currently present in the output file.
 
 ## Project Structure
 
