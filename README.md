@@ -36,7 +36,7 @@ The process is iterative: Deep-research directs Firecrawl to gather data, analyz
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/HLCarbon/DeepResearch-implementation
     cd DeepResearch
     ```
 2.  **Set up Firecrawl (Local):**
