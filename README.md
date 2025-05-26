@@ -102,9 +102,3 @@ This project is a fork based on the excellent work from:
 
 *   `dzhng/deep-research` ([https://github.com/dzhng/deep-research](https://github.com/dzhng/deep-research))
 *   `mendableai/firecrawl` ([https://github.com/mendableai/firecrawl](https://github.com/mendableai/firecrawl))
-
-Modifications include integration with OpenRouter for LLM calls in `deep-research` and potential integration with Brave API for web requests in `firecrawl`.
-
-## License
-
-[Include license information, likely inherited from the original projects, e.g., MIT] 
