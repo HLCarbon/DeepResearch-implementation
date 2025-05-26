@@ -1,6 +1,6 @@
 # DeepResearch: AI-Powered Research Assistant (Fork)
 
-An AI-powered research assistant that performs iterative, deep research on any topic by combining web scraping, search engines, and large language models. This project is a modified combination of the original `dzhng/deep-research` and `mendableai/firecrawl` repositories, incorporating enhanced capabilities for data acquisition and language model integration. **This setup allows for a completely free research workflow by running Firecrawl locally and using free models available through OpenRouter.**
+An AI-powered research assistant that performs iterative, deep research on any topic by combining web scraping, search engines, and large language models. This project is a modified combination of the original [`dzhng/deep-research`](https://github.com/dzhng/deep-research) and [`mendableai/firecrawl`](https://github.com/mendableai/firecrawl) repositories, incorporating enhanced capabilities for data acquisition and language model integration. **This setup allows for a completely free research workflow by running Firecrawl locally and using free models available through OpenRouter.**
 
 ## Purpose
 
