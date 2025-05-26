@@ -42,7 +42,7 @@ The process is iterative: Deep-research directs Firecrawl to gather data, analyz
 2.  **Set up Firecrawl (Local):**
     *   Navigate to the `firecrawl/apps/api` directory:
         ```bash
-        cd firecrawl/apps/api
+        cd firecrawl
         ```
     *   Copy the environment example file:
         ```bash
@@ -53,15 +53,10 @@ The process is iterative: Deep-research directs Firecrawl to gather data, analyz
         BRAVE_API_KEY="YOUR-KEY"
         # Ensure other required variables like REDIS_URL are set correctly, potentially pointing to the service name in docker-compose (e.g., redis:6379)
         ```
-    *   Navigate back to the root `firecrawl` directory:
-        ```bash
-        cd ../..
-        ```
     *   Run Firecrawl using Docker Compose:
         ```bash
         docker compose up 
         ```
-        (Use `docker compose down` to stop the containers later)
 3.  **Set up Deep-Research:**
     *   Navigate to the `deep-research` directory:
         ```bash
